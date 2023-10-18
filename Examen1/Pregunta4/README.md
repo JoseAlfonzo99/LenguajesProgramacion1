@@ -14,7 +14,8 @@ Nota: Se utilizo un sistema operativo Linux con el compilador g++ ya intalado
 ``` g++ --coverage -c -o Pregunta4Test.o Pregunta4Test.cpp ```
 
 ``` g++ --coverage -o ejecutable Pregunta4.o Pregunta4Test.o ```
-5) Ejecutar el procama con el siguiente comando:
+
+5) Ejecutar el programa con el siguiente comando:
 ``` ./ejecutable ```
 
 
