@@ -1,0 +1,74 @@
+V "GNAT Lib v9"
+M P W=b
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_ALLOCATORS_AFTER_ELABORATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U pregunta1b%b		pregunta1b.adb		35935a95 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+
+D ada.ads		20210601075304 76789da1 ada%s
+D a-except.ads		20210601075304 291912d5 ada.exceptions%s
+D a-ioexce.ads		20210601075304 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210601075304 119b8fb3 ada.streams%s
+D a-tags.ads		20210601075304 491b781d ada.tags%s
+D a-textio.ads		20210601075304 881db35a ada.text_io%s
+D a-unccon.ads		20210601075304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210601075304 5ab55268 interfaces%s
+D i-cstrea.ads		20210601075304 e53d8b8e interfaces.c_streams%s
+D pregunta1b.adb	20231116182143 bd8ee9cf pregunta1b%b
+D system.ads		20210601075304 4635ec04 system%s
+D s-conca2.ads		20210601075304 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20210601075304 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210601075304 54135002 system.exception_table%s
+D s-ficobl.ads		20210601075304 078245e4 system.file_control_block%s
+D s-imgint.ads		20210601075304 02dbe0c2 system.img_int%s
+D s-parame.ads		20210601075304 48ec542b system.parameters%s
+D s-secsta.ads		20210601075304 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20210601075304 a7318a92 system.soft_links%s
+D s-stache.ads		20210601075304 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210601075304 09bd3940 system.standard_library%s
+D s-stoele.ads		20210601075304 2dc34a04 system.storage_elements%s
+D s-traent.ads		20210601075304 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20210601075304 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20210601075304 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 10|4r6 4r23
+X 6 a-textio.ads
+49K13*Text_IO 471e16 10|4w10 4r27
+263U14*Put_Line 10|50s7 53s7
+X 10 pregunta1b.adb
+6U11*pregunta1b 6b11 55l5 55t15
+8R8 Church 11e14
+9i7 Valor{integer} 18m48 18r59 27m41 27r51 27r59 34m42 34r52 34r60 41m44
+. 42m44 50r53 53r53
+10p7 Next 18m67 21m15 27m66 34m66 41m56 42m56
+13P9 Apuntador_Church 16r28 18r16 26r24 26r49 27r9 33r34 33r59 34r10 41r12
+. 42r12 43r18
+16U13 Suc 16b13 16=18 23l8 23t11 45s7 46s7 47s7
+16p18 N{13P9} 18r57 21r22 22m7
+18p7 Sucesor{13P9} 21r7 22r11
+26V12 Suma{13P9} 26b12 26>18 26>20 30l8 30t12 48s20
+26p18 A{13P9} 27r49
+26p20 B{13P9} 27r57
+27p7 C{13P9} 29r14
+33V12 Multiplicacion{13P9} 33b12 33>28 33>30 37l8 37t22 51s20
+33p28 A{13P9} 34r50
+33p30 B{13P9} 34r58
+34p7 C{13P9} 36r14
+41p7 Uno{13P9} 45m11 45r11 48r25 51r35
+42p7 Dos{13P9} 46m11 46r11 47m11 47r11 48r29 51r39
+43p7 Respuesta{13P9} 48m7 50r43 51m7 53r43
+
