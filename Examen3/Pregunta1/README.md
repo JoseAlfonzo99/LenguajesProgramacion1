@@ -2,6 +2,7 @@
 # Pasos para ejecutar Pregunta1a y Pregunta1b del examen 3
 
 Nota: Se utilizo un sistema operativo Linux 
+
 Nota 2: Se aplica lo mismo para correr el archivo ```Pregunta1a.kt``` solo que cambiando la b por a en los siguientes comandos
 
 1) Abra la terminal
